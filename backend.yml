@@ -126,7 +126,7 @@ Resources:
                 Value: !Ref RoomsTable
               - Name: HOTEL_NAME
                 #Value: !Ref HotelName
-                Value: !Sub ${HotelName}-${Environment}-2
+                Value: !Sub ${HotelName}-${Environment}-Apple1
         AuthenticationConfiguration:
           AccessRoleArn: !GetAtt AppRunnerECRAccessRole.Arn
       InstanceConfiguration:
